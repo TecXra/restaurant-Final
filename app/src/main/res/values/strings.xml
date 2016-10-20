@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Pakistani Food</string>
+
+    <string-array name="items_name">
+        <item>Chicken Biryani</item>
+        <item>Motton Biryani</item>
+        <item>Chiken Carahai</item>
+        <item>Motton Carahai</item>
+        <item>Tika Booti</item>
+        <item>Chicken Kabab</item>
+        <item>Beef kabab</item>
+    </string-array>
+    <array name="item_image">
+        <item>@drawable/fst</item>
+        <item>@drawable/fst</item>
+        <item>@drawable/fst</item>
+        <item>@drawable/fst</item>
+        <item>@drawable/fst</item>
+        <item>@drawable/fst</item>
+        <item>@drawable/fst</item>
+    </array>
+    <string-array name="price">
+        <item>Price:200:Rs</item>
+        <item>Price:400:Rs</item>
+        <item>Price:550:Rs</item>
+        <item>Price:950:Rs</item>
+        <item>Price:200:Rs</item>
+        <item>Price:250:Rs</item>
+        <item>Price:350:Rs</item>
+
+    </string-array>
+    <string-array name="Quantity">
+        <item>Half</item>
+        <item>full</item>
+        <item>Half</item>
+        <item>full</item>
+    </string-array>
+    <string-array name="Price">
+        <item>Rs:150</item>
+        <item>Rs:300</item>
+        <item>Rs:150</item>
+        <item>Rs:300</item>
+    </string-array>
+    <string-array name="list_items">
+        <item>Half__Rs.150</item>
+        <item>Full__Rs.300</item>
+        <item>Half__Rs.200</item>
+        <item>Full__Rs.400</item>
+    </string-array>
+
+</resources>

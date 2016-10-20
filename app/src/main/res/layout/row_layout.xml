@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="215dp"
+    >
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:id="@+id/Imagee"
+        android:src="@drawable/chknbb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Food name"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/Food_title"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Imagee"
+        android:layout_toEndOf="@+id/Imagee" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Price"
+        android:textColor="#000000"
+        android:id="@+id/Price"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/Food_title"
+        android:layout_toEndOf="@+id/Food_title" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/Imagee"
+        android:background="#000000"
+        android:id="@+id/view">
+
+    </View>
+</RelativeLayout>

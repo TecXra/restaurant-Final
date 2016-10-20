@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fasigujar.copyproject.Main2Activity"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/pk"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_vertical"
+        android:layout_weight=".50">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Pakistani"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/btn1"
+            android:onClick="onClick"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#96401212" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/ch"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".50">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/btn2"
+            android:text="Chenies"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#96401212" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/pza"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".50">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Pizza"
+            android:id="@+id/btn3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#96401212" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</RelativeLayout>

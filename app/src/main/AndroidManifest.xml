@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fasigujar.copyproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main23Activity" />
+        <activity android:name=".Main24Activity" />
+        <activity android:name=".Main25Activity" />
+        <activity
+            android:name=".Menus"
+            android:label="Menu" />
+        <activity
+            android:name=".Menus_Item"
+            android:label="Menu Category" />
+        <activity
+            android:name=".menu_add_cart"
+            android:label="Biryani" />
+        <activity
+            android:name=".Cart"
+            android:label="Quantity" />
+        <activity
+            android:name=".cart_show"
+            android:label="Cart" />
+        <activity android:name=".EditCartActivity" />
+        <activity android:name=".OrderActivity"></activity>
+    </application>
+
+</manifest>

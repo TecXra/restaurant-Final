@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fasigujar.copyproject.Main24Activity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/chknbb"
+            android:layout_weight="0.50">
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            >
+            <ListView
+                android:id="@+id/listv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="30dp"
+                android:layout_height="100dp"
+                android:text="Qty"/>
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="30dp"
+                android:layout_height="100dp"
+                android:text="Add"/>
+        </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

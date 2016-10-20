@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fasigujar.copyproject.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Restaurant"
+            android:background="#4cb89f"
+            android:textColor="@android:color/background_light"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/textView"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/man"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".50">
+
+
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="Pakistani"
+            android:textColor="@android:color/background_light"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:id="@+id/btn1"
+            android:onClick="onClick"
+            android:background="@drawable/btn"
+            android:layout_weight=".50"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
